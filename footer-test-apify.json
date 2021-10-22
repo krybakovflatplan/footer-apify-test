@@ -1,0 +1,702 @@
+{
+    "role": "container",
+    "identifier": "footer-extended",
+    "layout": {
+    "ignoreDocumentMargin": true,
+        "ignoreViewportPadding": "both",
+        "margin": {
+        "top": "3vmax",
+            "bottom": "0vmax"
+    },
+    "padding": {
+        "top": "0vmax",
+            "bottom": "0vmax"
+    }
+},
+    "style": {
+    "border": {
+        "all": {
+            "color": "#CC0202",
+                "width": 6
+        },
+        "left": false,
+            "right": false,
+            "top": false,
+            "bottom": true
+    },
+    "conditional": [
+        {
+            "backgroundColor": "black",
+            "border": {
+                "all": {
+                    "color": "#CC0202"
+                }
+            },
+            "conditions": [
+                {
+                    "preferredColorScheme": "dark"
+                }
+            ]
+        }
+    ]
+},
+    "components": [
+    {
+        "role": "divider",
+        "layout": {
+            "ignoreDocumentMargin": false,
+            "margin": {
+                "top": "0vmax",
+                "bottom": "0cw"
+            }
+        },
+        "stroke": {
+            "color": "#E6E6E6",
+            "width": 2
+        },
+        "conditional": {
+            "hidden": true,
+            "conditions": {
+                "preferredColorScheme": "dark"
+            }
+        }
+    },
+    {
+        "role": "container",
+        "identifier": "footer-content-group-700down",
+        "conditional": [
+            {
+                "hidden": true,
+                "conditions": [
+                    {
+                        "minViewportWidth": 700
+                    }
+                ]
+            }
+        ],
+        "style": {},
+        "layout": {
+            "padding": {
+                "top": "0cw",
+                "bottom": "0cw",
+                "left": "0cw",
+                "right": "0cw"
+            },
+            "margin": {
+                "top": "10cw",
+                "bottom": "10cw",
+                "left": "0cw",
+                "right": "0cw"
+            }
+        },
+        "components": [
+            {
+                "role": "section",
+                "style": {},
+                "layout": {
+                    "horizontalContentAlignment": "center",
+                    "padding": {
+                        "top": "0cw",
+                        "bottom": "0cw",
+                        "left": "0cw",
+                        "right": "0cw"
+                    }
+                },
+                "components": [
+                    {
+                        "role": "logo",
+                        "URL": "https://flatplan-assets.netlify.app/2_Client/Hello!/assets/oyR0Dh5.png",
+                        "layout": {
+                            "horizontalContentAlignment": "center",
+                            "maximumContentWidth": "35cw",
+                            "ignoreDocumentMargin": false,
+                            "padding": {
+                                "top": "0vmax",
+                                "bottom": "3vmax",
+                                "left": "0cw",
+                                "right": "0cw"
+                            }
+                        }
+                    },
+                    {
+                        "role": "body",
+                        "text": "The latest royal and entertainment stories, breaking news, fashion and lifestyle content and HELLO!'s celebrity exclusives",
+                        "format": "html",
+                        "layout": {
+                            "ignoreDocumentMargin": false,
+                            "margin": {
+                                "top": "0vmax",
+                                "bottom": "3.5vmax"
+                            }
+                        },
+                        "style": {},
+                        "textStyle": {
+                            "fontName": "Helvetica",
+                            "fontSize": 18,
+                            "lineHeight": 24,
+                            "textColor": "#010101",
+                            "textAlignment": "center",
+                            "textTransform": "none",
+                            "hyphenation": false,
+                            "tracking": 0
+                        }
+                    },
+                    {
+                        "role": "container",
+                        "layout": {
+                            "margin": {
+                                "top": "0cw",
+                                "right": "0cw",
+                                "bottom": "1.5vmax",
+                                "left": "0cw"
+                            }
+                        },
+                        "style": {},
+                        "contentDisplay": {
+                            "type": "collection",
+                            "minimumWidth": "80cw",
+                            "maximumWidth": "80cw",
+                            "gutter": "0cw",
+                            "alignment": "center",
+                            "rowSpacing": "0cw",
+                            "distribution": "narrow"
+                        },
+                        "components": [
+                            {
+                                "role": "container",
+                                "layout": {
+                                    "margin": {
+                                        "top": "0cw",
+                                        "bottom": "0cw",
+                                        "left": "0cw",
+                                        "right": "0cw"
+                                    }
+                                },
+                                "style": {
+                                    "backgroundColor": "#CC0202",
+                                    "mask": {
+                                        "type": "corners",
+                                        "radius": 8
+                                    },
+                                    "conditional": [
+                                        {
+                                            "backgroundColor": "white",
+                                            "conditions": [
+                                                {
+                                                    "preferredColorScheme": "dark"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "components": [
+                                    {
+                                        "role": "link_button",
+                                        "URL": "https://www.hellomagazine.com/newsletter/?utm_source=article&utm_medium=applenews&utm_campaign=newsletter-signup",
+                                        "text": "Receive our newsletter",
+                                        "style": {
+                                            "backgroundColor": "#CC0202",
+                                            "mask": {
+                                                "type": "corners",
+                                                "radius": 8
+                                            },
+                                            "conditional": [
+                                                {
+                                                    "backgroundColor": "white",
+                                                    "conditions": [
+                                                        {
+                                                            "preferredColorScheme": "dark"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "textStyle": {
+                                            "fontFamily": "Futura",
+                                            "fontWeight": "600",
+                                            "fontSize": 14,
+                                            "lineHeight": 14,
+                                            "textColor": "white",
+                                            "textAlignment": "center",
+                                            "textTransform": "none",
+                                            "hyphenation": false,
+                                            "tracking": 0,
+                                            "conditional": [
+                                                {
+                                                    "fontSize": 14,
+                                                    "lineHeight": 14,
+                                                    "conditions": [
+                                                        {
+                                                            "minViewportWidth": 700
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "textColor": "#CC0202",
+                                                    "conditions": [
+                                                        {
+                                                            "preferredColorScheme": "dark"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "layout": {
+                                            "horizontalContentAlignment": "center",
+                                            "padding": {
+                                                "top": "1.75vmax",
+                                                "right": "5vmax",
+                                                "bottom": "2.25vmax",
+                                                "left": "5vmax"
+                                            },
+                                            "margin": {
+                                                "top": "0cw",
+                                                "bottom": "0vmax",
+                                                "left": "0cw",
+                                                "right": "0cw"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "role": "container",
+                        "layout": {
+                            "margin": {
+                                "top": "0cw",
+                                "right": "0cw",
+                                "bottom": "5vmax",
+                                "left": "0cw"
+                            }
+                        },
+                        "style": {},
+                        "contentDisplay": {
+                            "type": "collection",
+                            "minimumWidth": "80cw",
+                            "maximumWidth": "80cw",
+                            "gutter": "0cw",
+                            "alignment": "center",
+                            "rowSpacing": "0cw",
+                            "distribution": "narrow"
+                        },
+                        "components": [
+                            {
+                                "role": "container",
+                                "layout": {
+                                    "margin": {
+                                        "top": "0cw",
+                                        "bottom": "0cw",
+                                        "left": "0cw",
+                                        "right": "0cw"
+                                    }
+                                },
+                                "style": {
+                                    "backgroundColor": "#CC0202",
+                                    "mask": {
+                                        "type": "corners",
+                                        "radius": 8
+                                    },
+                                    "conditional": [
+                                        {
+                                            "backgroundColor": "white",
+                                            "conditions": [
+                                                {
+                                                    "preferredColorScheme": "dark"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "components": [
+                                    {
+                                        "role": "link_button",
+                                        "URL": "https://www.hellomagazine.com?utm_medium=applenews",
+                                        "text": "Visit hellomagazine.com",
+                                        "style": {},
+                                        "textStyle": {
+                                            "fontFamily": "Futura",
+                                            "fontWeight": "600",
+                                            "fontSize": 14,
+                                            "lineHeight": 14,
+                                            "textColor": "white",
+                                            "textAlignment": "center",
+                                            "textTransform": "none",
+                                            "hyphenation": false,
+                                            "tracking": 0,
+                                            "conditional": [
+                                                {
+                                                    "fontSize": 14,
+                                                    "lineHeight": 14,
+                                                    "conditions": [
+                                                        {
+                                                            "minViewportWidth": 700
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "textColor": "#CC0202",
+                                                    "conditions": [
+                                                        {
+                                                            "preferredColorScheme": "dark"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "layout": {
+                                            "horizontalContentAlignment": "center",
+                                            "padding": {
+                                                "top": "1.5vmax",
+                                                "right": "0vmax",
+                                                "bottom": "1.75vmax",
+                                                "left": "0vmax"
+                                            },
+                                            "margin": {
+                                                "top": "0cw",
+                                                "bottom": "0vmax",
+                                                "left": "0cw",
+                                                "right": "0cw"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "role": "section",
+                "layout": {},
+                "style": {},
+                "anchor": {
+                    "targetAnchorPosition": "bottom"
+                },
+                "components": [
+                    {
+                        "role": "heading",
+                        "text": "<a href=\"https://www.instagram.com/hellomag/\"></a> <a href=\"https://www.facebook.com/hello\"></a> <a href=\"https://twitter.com/hellomag\"></a>",
+                        "format": "html",
+                        "layout": {
+                            "padding": {
+                                "top": "0cw",
+                                "bottom": "0cw"
+                            }
+                        },
+                        "style": {},
+                        "textStyle": {
+                            "fontName": "Helvetica",
+                            "fontSize": 45,
+                            "lineHeight": 20,
+                            "textColor": "#CC0202",
+                            "textAlignment": "center",
+                            "textTransform": "none",
+                            "hyphenation": false,
+                            "tracking": 0,
+                            "conditional": [
+                                {
+                                    "textColor": "white",
+                                    "conditions": [
+                                        {
+                                            "preferredColorScheme": "dark"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "role": "container",
+        "identifier": "footer-content-group-700up",
+        "conditional": [
+            {
+                "hidden": true,
+                "conditions": [
+                    {
+                        "maxViewportWidth": 700
+                    }
+                ]
+            }
+        ],
+        "layout": {
+            "margin": {
+                "top": "5vmax",
+                "bottom": "5vmax"
+            },
+            "ignoreDocumentMargin": false,
+            "columnStart": 0,
+            "columnSpan": 12,
+            "minimumHeight": "50vmax"
+        },
+        "contentDisplay": {
+            "type": "collection",
+            "minimumWidth": "49cw",
+            "maximumWidth": "50cw",
+            "variableSizing": false,
+            "widows": "equalize",
+            "gutter": "0cw",
+            "rowSpacing": "0cw",
+            "distribution": "wide",
+            "alignment": "center"
+        },
+        "components": [
+            {
+                "role": "header",
+                "style": {
+                    "fill": {
+                        "type": "image",
+                        "URL": "https://flatplan-assets.netlify.app/2_Client/Hello!/assets/lAk9eT6.jpg",
+                        "fillMode": "cover",
+                        "verticalAlignment": "center",
+                        "horizontalAlignment": "center"
+                    }
+                },
+                "layout": {
+                    "minimumHeight": "50vmax"
+                }
+            },
+            {
+                "role": "container",
+                "style": {},
+                "layout": {
+                    "padding": {
+                        "top": "0cw",
+                        "bottom": "0cw",
+                        "left": "8cw",
+                        "right": "0cw"
+                    }
+                },
+                "components": [
+                    {
+                        "role": "section",
+                        "style": {},
+                        "layout": {
+                            "horizontalContentAlignment": "center",
+                            "padding": {
+                                "top": "0cw",
+                                "bottom": "0cw",
+                                "left": "0cw",
+                                "right": "0cw"
+                            }
+                        },
+                        "components": [
+                            {
+                                "role": "logo",
+                                "URL": "https://flatplan-assets.netlify.app/2_Client/Hello!/assets/oyR0Dh5.png",
+                                "layout": {
+                                    "horizontalContentAlignment": "left",
+                                    "maximumContentWidth": "45cw",
+                                    "ignoreDocumentMargin": false,
+                                    "padding": {
+                                        "top": "20cw",
+                                        "bottom": "8cw",
+                                        "left": "0cw",
+                                        "right": "0cw"
+                                    }
+                                }
+                            },
+                            {
+                                "role": "body",
+                                "text": "The latest royal and entertainment stories, breaking news, fashion and lifestyle content and HELLO!'s celebrity exclusives",
+                                "format": "html",
+                                "layout": {
+                                    "ignoreDocumentMargin": false,
+                                    "margin": {
+                                        "top": "0vmax",
+                                        "bottom": "10cw"
+                                    }
+                                },
+                                "style": {},
+                                "textStyle": {
+                                    "fontName": "Helvetica",
+                                    "fontSize": 18,
+                                    "lineHeight": 24,
+                                    "textColor": "#010101",
+                                    "textAlignment": "left",
+                                    "textTransform": "none",
+                                    "hyphenation": false,
+                                    "tracking": 0,
+                                    "conditional": [
+                                        {
+                                            "textColor": "white",
+                                            "conditions": [
+                                                {
+                                                    "preferredColorScheme": "dark"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "role": "link_button",
+                                "URL": "https://www.hellomagazine.com/newsletter/?utm_source=article&utm_medium=applenews&utm_campaign=newsletter-signup",
+                                "text": "Receive our newsletter",
+                                "style": {
+                                    "backgroundColor": "#CC0202",
+                                    "mask": {
+                                        "type": "corners",
+                                        "radius": 8
+                                    },
+                                    "conditional": [
+                                        {
+                                            "backgroundColor": "white",
+                                            "conditions": [
+                                                {
+                                                    "preferredColorScheme": "dark"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "textStyle": {
+                                    "fontFamily": "Futura",
+                                    "fontWeight": "600",
+                                    "fontSize": 14,
+                                    "lineHeight": 14,
+                                    "textColor": "white",
+                                    "textAlignment": "center",
+                                    "textTransform": "none",
+                                    "hyphenation": false,
+                                    "tracking": 0,
+                                    "conditional": [
+                                        {
+                                            "fontSize": 14,
+                                            "lineHeight": 14,
+                                            "conditions": [
+                                                {
+                                                    "minViewportWidth": 700
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "textColor": "#CC0202",
+                                            "conditions": [
+                                                {
+                                                    "preferredColorScheme": "dark"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "layout": {
+                                    "horizontalContentAlignment": "left",
+                                    "padding": {
+                                        "top": "1vmax",
+                                        "right": "4.5vmax",
+                                        "bottom": "1.25vmax",
+                                        "left": "4.5vmax"
+                                    },
+                                    "margin": {
+                                        "top": "0cw",
+                                        "bottom": "0vmax",
+                                        "left": "0cw",
+                                        "right": "0cw"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "role": "section",
+                        "layout": {},
+                        "style": {},
+                        "anchor": {
+                            "targetAnchorPosition": "bottom"
+                        },
+                        "components": [
+                            {
+                                "role": "heading",
+                                "text": "<a href=\"https://www.instagram.com/hellomag/\"></a> <a href=\"https://www.facebook.com/hello\"></a> <a href=\"https://twitter.com/hellomag\"></a>",
+                                "format": "html",
+                                "layout": {
+                                    "padding": {
+                                        "top": "0cw",
+                                        "bottom": "8cw"
+                                    }
+                                },
+                                "style": {},
+                                "textStyle": {
+                                    "fontName": "Helvetica",
+                                    "fontSize": 45,
+                                    "lineHeight": 20,
+                                    "textColor": "#CC0202",
+                                    "textAlignment": "left",
+                                    "textTransform": "none",
+                                    "hyphenation": false,
+                                    "tracking": 0,
+                                    "conditional": [
+                                        {
+                                            "textColor": "white",
+                                            "conditions": [
+                                                {
+                                                    "preferredColorScheme": "dark"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "fontSize": 30,
+                                            "conditions": [
+                                                {
+                                                    "minViewportWidth": 1200
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "role": "heading",
+                                "text": "Visit <a href=\"https://www.hellomagazine.com?utm_medium=applenews\">hellomagazine.com</a>",
+                                "format": "html",
+                                "layout": {
+                                    "padding": {
+                                        "top": "0cw",
+                                        "bottom": "0cw"
+                                    }
+                                },
+                                "style": {},
+                                "textStyle": {
+                                    "fontName": "Helvetica",
+                                    "fontSize": 16,
+                                    "lineHeight": 16,
+                                    "textColor": "#CC0202",
+                                    "textAlignment": "left",
+                                    "textTransform": "none",
+                                    "hyphenation": false,
+                                    "linkStyle": {
+                                        "underline": {
+                                            "color": "#CC0202"
+                                        }
+                                    },
+                                    "conditional": [
+                                        {
+                                            "textColor": "white",
+                                            "linkStyle": {
+                                                "underline": {
+                                                    "color": "#CC0202"
+                                                }
+                                            },
+                                            "conditions": [
+                                                {
+                                                    "preferredColorScheme": "dark"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
+}
